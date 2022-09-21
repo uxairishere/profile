@@ -287,10 +287,22 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
   margin-bottom: 3rem;
 }
 
-.input-container input{
-  color: whitesmoke;
+
+.input-container{
+	position:relative;
+	margin-bottom:25px;
 }
-.input-container input:focus{ 
+
+.input-container input, textarea{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+.input-container input:focus, textarea:focus{ 
  border:none;	
  outline:none;
  border-bottom:1px solid gold;	
@@ -308,144 +320,7 @@ label{
 
 /* CARDS  */
 
-
-
-/* Minimum aspect ratio */
-@media (min-aspect-ratio: 8/5) {}
-
-/* Exact aspect ratio, put it at the bottom to avoid override*/
-@media (max-width: 600px) {
-  .title.row {
-    flex-direction: column-reverse;
-    padding-top: 0;
-    margin: 0;
-  }
-
-  .intro-desc {
-    display: block;
-    float: right;
-    align-items: right;
-    text-align: center;
-  }
-
-  .profile-image {
-    width: 9rem;
-    border-radius: 50%;
-    display: block;
-    float: none;
-    margin: 2rem auto;
-  }
-
-  .h1 {
-    font-size: 1.5rem;
-  }
-
-  .introh1 {
-    font-size: 1.5rem;
-  }
-
-  .introh5 {
-    font-size: 0.5rem;
-  }
-
-  .introh2 {
-    font-size: 1.2rem;
-  }
-
-  .introh3 {
-    font-size: 0.9rem;
-  }
-
-  .introhr {
-    background-color: #1cdce8;
-    line-height: 1px;
-    margin: 3px auto;
-  }
-
-  .introp {
-    line-height: 1px;
-  }
-
-  .introIcon {
-    font-size: 1.5rem;
-  }
-
-  hr {
-    width: 70%;
-    margin: 1rem auto;
-  }
-
-  /* ABOUT MOBILE  */
-  .about-main {
-    padding: 60px 0;
-  }
-
-  .about-container {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .aboutVid {
-    width: 12rem;
-    border-radius: 50%;
-    display: block;
-    float: none;
-    margin: 2rem auto;
-  }
-
-  .aboutToggleDiv {
-    display: block;
-  }
-
-  .desc-p {
-    font-weight: 300;
-    font-size: 18px;
-  }
-
-  .about-buttons {
-    font-weight: 500;
-    font-size: 20px;
-    text-decoration: none;
-    color: whitesmoke;
-    cursor: grab;
-  }
-
-  .about-desc {
-    padding-bottom: 10px;
-    font-size: 18px
-  }
-
-  /* services  */
-  .service-main{
-    padding: 60px 0;
-  }
-
-
-  /* tools and tech  */
-
-  .tools-main{
-    padding: 60px 0;
-  }
-  .grid-container{
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  .logoImg{
-    width: 80%;
-  }
-  /* contact  */
-  .contact-main{
-    padding: 60px 0;
-  }
-
-  .contact-container{
-    width: 85%;
-  }
-
-
-}
-
-
+/* NAVBAR START  */
 
 
 
@@ -649,8 +524,151 @@ img:nth-child(2) {
 }
 
 
-/* MODE  */
-.dark {
-  color: whitesmoke;
-  background-color: rgb(31, 30, 32);
+/* NAVABAR ENDS  */
+
+
+
+
+/* Minimum aspect ratio */
+@media (min-aspect-ratio: 8/5) {}
+
+/* Exact aspect ratio, put it at the bottom to avoid override*/
+@media (max-width: 600px) {
+  .title.row {
+    flex-direction: column-reverse;
+    padding-top: 0;
+    margin: 0;
+  }
+
+  .intro-desc {
+    display: block;
+    float: right;
+    align-items: right;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 9rem;
+    border-radius: 50%;
+    display: block;
+    float: none;
+    margin: 2rem auto;
+  }
+
+  .h1 {
+    font-size: 1.5rem;
+  }
+
+  .introh1 {
+    font-size: 1.5rem;
+  }
+
+  .introh5 {
+    font-size: 0.5rem;
+  }
+
+  .introh2 {
+    font-size: 1.2rem;
+  }
+
+  .introh3 {
+    font-size: 0.9rem;
+  }
+
+  .introhr {
+    background-color: #1cdce8;
+    line-height: 1px;
+    margin: 3px auto;
+  }
+
+  .introp {
+    line-height: 1px;
+  }
+
+  .introIcon {
+    font-size: 1.5rem;
+  }
+
+  hr {
+    width: 70%;
+    margin: 1rem auto;
+  }
+
+  /* ABOUT MOBILE  */
+  .about-main {
+    padding: 60px 0;
+  }
+
+  .about-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .aboutVid {
+    width: 12rem;
+    border-radius: 50%;
+    display: block;
+    float: none;
+    margin: 2rem auto;
+  }
+
+  .aboutToggleDiv {
+    display: block;
+  }
+
+  .desc-p {
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .about-buttons {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: grab;
+  }
+
+  .about-desc {
+    padding-bottom: 10px;
+    font-size: 18px
+  }
+
+  /* services  */
+  .service-main{
+    padding: 60px 0;
+  }
+
+
+  /* tools and tech  */
+
+  .tools-main{
+    padding: 60px 0;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .logoImg{
+    width: 80%;
+  }
+  /* contact  */
+  .contact-main{
+    padding: 60px 0;
+  }
+
+  .contact-container{
+    width: 85%;
+  }
+
+  /* /navbar  */
+  .nav-link{
+    font-size: 1.5rem;
+  }
+  .nav-link:hover{
+    color: gold;
+    border-bottom: 1px solid gold;
+  }
 }
+
+

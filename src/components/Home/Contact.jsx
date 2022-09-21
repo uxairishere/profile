@@ -8,7 +8,7 @@ const Contact = () => {
                 <p className="contactP about-desc">I am available for full time, part time and freelance work. Connect with me via email</p>
                 <form>
                     {/* name email */}
-                    <div className="row">
+                    <div className="row box">
                         <div className="col-md-6">
                             <div class="input-container">
                                 <label>Name</label>

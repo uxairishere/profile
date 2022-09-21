@@ -9,9 +9,7 @@ const Navi = () => {
       document.getElementById("navigation").style.backgroundColor = 'rgba(25,25,25, 0.8)'
     } else {
       document.getElementById("navigation").classList.remove('fixed-top')
-      document.getElementById("navigation").style.backgroundColor = '#191919'
-
-      
+      document.getElementById("navigation").style.backgroundColor = '#191919';
     }
   }
 
