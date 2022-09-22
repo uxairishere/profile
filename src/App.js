@@ -18,7 +18,7 @@ const App = () => {
     <div className={"App"} style={{margin: "0"}}>
     {
       loading ?
-      <div style={{ margin: '0 auto', textAlign: 'center', position: 'absolute', top: '40%', left: '47%'}}>
+      <div className="loading-wrapper">
       <PuffLoader
         size={80}
         color={"#FFD700"}
