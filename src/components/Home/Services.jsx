@@ -1,13 +1,16 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Services = () => {
+    AOS.init();
     return (
         <div id='services' className='service-main'>
             <div className='service-container container'>
                 <h1 className='text-center mb-5'>Services</h1>
                 <div className='row'>
                     {/* card 1  */}
-                    <div className='col-md-4'>
+                    <div data-aos="fade-right"  className='col-md-4'>
                         <card className='service-card card'>
                         <div className='card-inner'>
                             <i class="fa fa-laptop-code service-icon text-warning"></i>
@@ -22,7 +25,7 @@ const Services = () => {
                         </card>
                     </div>
                     {/* card 1  */}
-                    <div className='col-md-4'>
+                    <div data-aos="fade-up" className='col-md-4'>
                         <card className='service-card card'>
                         <div className='card-inner'>
                             <i class="fa fa-layer-group service-icon text-warning"></i>
@@ -36,7 +39,7 @@ const Services = () => {
                         
                         </card>
                     </div>{/* card 1  */}
-                    <div className='col-md-4'>
+                    <div data-aos="fade-left" className='col-md-4'>
                         <card className='service-card card'>
                         <div className='card-inner'>
                             <i class="fa fa-mobile service-icon text-warning"></i>

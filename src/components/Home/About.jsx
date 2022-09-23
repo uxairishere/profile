@@ -1,8 +1,11 @@
 import React from "react";
 import aboutVid from "../images/aboutVid.mp4"
 
-const About = () => {
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+const About = () => {
+    AOS.init();
     function HandleSkills() {
         document.getElementById('main-skills').classList.remove('d-none');
         document.getElementById('btnskill').classList.add('text-warning');
@@ -16,13 +19,13 @@ const About = () => {
         document.getElementById('btnedu').classList.add('text-warning');
     }
     return (
-        <div id="about" className="about-main">
+        <div  id="about" className="about-main">
 
             <div className="about-container row" >
                 <div className="col-md-3">
                     <video className="aboutVid" style={{ borderRadius: '50%' }} width="200" src={aboutVid} autoPlay muted loop />
                 </div>
-                <div className="col-md-9">
+                <div data-aos="fade-up" className="col-md-9">
                     <h1 >About me</h1>
                     <p className="desc-p">I'm quietly confident, self-motivated and hardworking
                         seeking for an opportunity to work
