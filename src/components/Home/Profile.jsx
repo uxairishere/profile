@@ -2,13 +2,11 @@ import React from "react";
 import profile from "../images/profile.jpg"
 import bgIntro from "../images/bgIntro.jpg"
 import { TypeAnimation } from 'react-type-animation';
-
 import About from "./About";
 import Services from "./Services";
 import Projects from "./Projects";
 import ToolsTech from "./ToolsTech";
 import Contact from "./Contact";
-
 import Particle from "../elements/Particle";
 import Navi from "./Navi";
 

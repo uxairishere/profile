@@ -2,7 +2,6 @@ import React from 'react'
 import onlineStoree from "../images/onlineStoree.png"
 import androidProject1 from "../images/androidProject1.png"
 import reactGallery1 from "../images/reactGallery1.png"
-
 import smartcode from "../images/smartcode.png"
 import unidownloader from "../images/unidownloader.png"
 import codeanalizer from "../images/codeanalizer.png"

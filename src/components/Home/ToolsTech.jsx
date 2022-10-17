@@ -2,7 +2,6 @@ import React from 'react'
 import node from "../images/node.png"
 import reactLogo from "../images/react.png"
 import reactNative from "../images/reactNative.png"
-
 import vscode from "../images/vscode.png"
 import express from "../images/express.png"
 import mongodb from "../images/mongodb.png"
