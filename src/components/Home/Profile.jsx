@@ -18,7 +18,7 @@ const Profile = (props) => {
     return (
         <div className="main-secion" >
             <Navi />
-            <div id="home" className="intro-wrapper" style={{ backgroundImage: `url(${bgIntro})` }}>
+            <div id="home" className="intro-wrapper" style={{ backgroundImage: `url(${bgIntro})`, marginTop:'3rem' }}>
                 <Particle/>
                 <div className="title-container">
                     <div className={"title row"}>

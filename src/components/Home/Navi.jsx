@@ -5,10 +5,10 @@ import logo from "../images/logo.png"
 const Navi = () => {
   function HandleScroll() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      document.getElementById("navigation").classList.add('fixed-top')
+      // document.getElementById("navigation").classList.add('fixed-top')
       document.getElementById("navigation").style.backgroundColor = 'rgba(25,25,25, 0.8)'
     } else {
-      document.getElementById("navigation").classList.remove('fixed-top')
+      // document.getElementById("navigation").classList.remove('fixed-top')
       document.getElementById("navigation").style.backgroundColor = '#191919';
     }
   }
@@ -16,7 +16,7 @@ const Navi = () => {
   window.onscroll = function() {HandleScroll()};
 
     return (
-        <nav id="navigation" style={{zIndex: '3', backgroundColor: '#191919', transition: 'all 1s'}} className="navbar navbar-expand-lg navbar-dark text-white">
+        <nav id="navigation" style={{zIndex: '3', backgroundColor: '#191919', transition: 'all 1s'}} className="navbar navbar-expand-lg navbar-dark fixed-top text-white">
           <div className="container-fluid container">
             <a className="navbar-brand" href="/"><img src={logo} alt="loading logo..." width="50"/></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

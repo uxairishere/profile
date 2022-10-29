@@ -334,7 +334,25 @@ label {
   padding-left: 2rem;
 }
 
-/* CARDS  */
+/* ALERTS  */
+.mail-alert {
+  width: 50%;
+  margin: 5rem auto;
+  background-image: linear-gradient(0deg,
+      hsl(198deg 39% 28%) 0%,
+      hsl(198deg 39% 27%) 9%,
+      hsl(198deg 39% 25%) 18%,
+      hsl(198deg 40% 23%) 27%,
+      hsl(198deg 40% 22%) 36%,
+      hsl(198deg 40% 20%) 45%,
+      hsl(198deg 41% 18%) 55%,
+      hsl(198deg 41% 17%) 64%,
+      hsl(198deg 42% 15%) 73%,
+      hsl(198deg 42% 14%) 82%,
+      hsl(198deg 43% 12%) 91%,
+      hsl(198deg 44% 11%) 100%);
+
+}
 
 /* NAVBAR START  */
 
@@ -551,9 +569,10 @@ img:nth-child(2) {
 /* Exact aspect ratio, put it at the bottom to avoid override*/
 @media (max-width: 600px) {
 
-  .loading-wrapper{
+  .loading-wrapper {
     left: 40%;
   }
+
   /* intro  */
   .title.row {
     flex-direction: column-reverse;
@@ -692,6 +711,10 @@ img:nth-child(2) {
 
   .nav-link:hover {
     color: gold;
-    border-bottom: 1px solid gold;
+    border-bottom: 1px solid #ffd700;
+  }
+  /* alerts  */
+  .mail-alert {
+    width: 90%;
   }
 }
