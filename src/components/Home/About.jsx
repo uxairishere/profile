@@ -41,17 +41,17 @@ const About = () => {
                     <hr style={{ backgroundColor: 'gold' }} />
                 </div>
                 <div id="main-skills">
-                    <a className="about-buttons">Web Development - Development</a>
+                    <a href="https://github.com/uxairishere" className="about-buttons">Web Development - Development</a>
                     <p className="about-desc desc-p">Build websites and web apps using javaScript and it's modern frameworks</p>
-                    <a className="about-buttons">Android Development - Development</a>
-                    <p className="about-desc desc-p">Build android apps using android studio and it's frameworks like react-native</p>
-                    <a className="about-buttons">Software Engineering - Engineering</a>
+                    <a href="https://github.com/uxairishere" className="about-buttons">Android Development - Development</a>
+                    <p href="https://github.com/uxairishere" className="about-desc desc-p">Build android apps using android studio and it's frameworks like react-native</p>
+                    <a href="https://github.com/uxairishere" className="about-buttons">Software Engineering - Engineering</a>
                     <p className="about-desc desc-p">Problem solving, design, development and maintenance of software</p>
                 </div>
                 <div id="education" className="d-none">
-                    <a className="about-buttons">BS In Software Engineering - NUML, Islamabad</a>
+                    <a href="https://www.numl.edu.pk/" className="about-buttons">BS In Software Engineering - NUML, Islamabad</a>
                     <p className="about-desc desc-p">2019-2023</p>
-                    <a className="about-buttons">Programming Senior category - Academics</a>
+                    <a href="https://www.numl.edu.pk/" className="about-buttons">Programming Senior category - Academics</a>
                     <p className="about-desc desc-p">Winner of Senior programming competition held in National University of
                         Modern Languages.
                     </p>

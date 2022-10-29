@@ -18,7 +18,7 @@ const Navi = () => {
     return (
         <nav id="navigation" style={{zIndex: '3', backgroundColor: '#191919', transition: 'all 1s'}} className="navbar navbar-expand-lg navbar-dark text-white">
           <div className="container-fluid container">
-            <a className="navbar-brand" href="/"><img src={logo} width="50"/></a>
+            <a className="navbar-brand" href="/"><img src={logo} alt="loading logo..." width="50"/></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
