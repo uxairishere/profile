@@ -53,7 +53,7 @@ const Profile = (props) => {
                         </div>
                         <div className="profile-image-main col-xs-12 col-sm-6 col-md-6 col-lg-5 ">
                             <div className="profile-image-inner">
-                                <img className="profile-image glow" src={profile} alt="profile image" />
+                                <img className="profile-image glow" src={profile} alt="profile loading" />
                             </div>
                         </div>
                     </div>
