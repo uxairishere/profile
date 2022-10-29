@@ -20,8 +20,8 @@ const Profile = (props) => {
             <Navi />
             <div id="home" className="intro-wrapper" style={{ backgroundImage: `url(${bgIntro})` }}>
                 <Particle/>
-                <div className="title-container ">
-                    <div className={"title row "}>
+                <div className="title-container">
+                    <div className={"title row"}>
                         <div className="intro-desc col-xs-12 col-sm-6 col-md-6 col-lg-7" style={{ zIndex: '2' }}>
                             <span ><h5 className="introh5" style={{ letterSpacing: "0.3rem", lineHeight: '0' }}>WELCOME TO MY WORLD</h5></span>
                             <h1 className="introh1">Hi, I'm Uzair Abbas</h1>
