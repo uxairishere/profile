@@ -44,7 +44,7 @@ const Services = () => {
                         <div className='card-inner'>
                             <i class="fa fa-mobile service-icon text-warning"></i>
                             <h3 className='serviceh3'>Android Application</h3>
-                            <p className='about-desc about-p service-p'>I like building quality android application with friendly user-interface and simple desgin.</p>
+                            <p className='about-desc about-p service-p'>I like building quality android application with friendly user-interface and simple desgin</p>
                             <h3 className='serviceh3'>Thing I love doing</h3>
                             <p className='about-desc about-p service-p'>Java, Kotlin, API Integration</p>
                             <h3 className='serviceh3'>Tools I use</h3>
