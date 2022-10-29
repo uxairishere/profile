@@ -53,7 +53,7 @@ const About = () => {
                     <p className="about-desc desc-p">2019-2023</p>
                     <a href="https://www.numl.edu.pk/" className="about-buttons">Programming Senior category - Academics</a>
                     <p className="about-desc desc-p">Winner of Senior programming competition held in National University of
-                        Modern Languages.
+                        Modern Languages
                     </p>
                 </div>
 
