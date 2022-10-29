@@ -10,9 +10,6 @@ import Contact from "./Contact";
 import Particle from "../elements/Particle";
 import Navi from "./Navi";
 
-
-
-
 const Profile = (props) => {
 
     const modes = props.slidesBg;
@@ -68,14 +65,6 @@ const Profile = (props) => {
             <Projects />
             <ToolsTech/>
             <Contact />
-            {/* <hr className="breaker" />
-            
-            <hr className="breaker" />
-            <Slides modes />
-            <hr className="breaker" />
-            <Cards />
-            <hr className="breaker" />
-            <Contact /> */}
         </div>
 
     )
