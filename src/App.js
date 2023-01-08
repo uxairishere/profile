@@ -22,8 +22,8 @@ const App = () => {
     <div className={"App"} style={{ margin: "0" }}>
       <Router>
         <Routes>
-          <Route path={process.env.REACT_APP_PUBLIC_URL + '/'} element={<Profile />} />
-          <Route path={process.env.REACT_APP_PUBLIC_URL + '/project/:id'} element={<ProjectDetail projects={projects} />} />
+          <Route path={process.env.REACT_APP_PUBLIC_URL} element={<Profile />} />
+          <Route path={process.env.REACT_APP_PUBLIC_URL + '/#/project/:id'} element={<ProjectDetail projects={projects} />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
