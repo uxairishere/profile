@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../images/logo.png"
 
-
 const Navi = () => {
   function HandleScroll() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
