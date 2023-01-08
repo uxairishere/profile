@@ -1,7 +1,7 @@
 {
-  "homepage": "https://uxairishere.github.io/profile",
   "name": "client",
   "version": "0.1.0",
+  "homepage": "https://uxairishere.github.io/profile",
   "private": true,
   "dependencies": {
     "@mui/icons-material": "^5.10.3",
