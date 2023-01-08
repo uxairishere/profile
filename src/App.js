@@ -22,7 +22,7 @@ const App = () => {
     <div className={"App"} style={{ margin: "0" }}>
       <Router>
         <Routes>
-          <Route path='/' element={
+          <Route path='/profile' element={
               <Profile />
           } />
           <Route path='/project/:id' element={<ProjectDetail projects={projects} />} />
