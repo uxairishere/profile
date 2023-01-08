@@ -1,5 +1,9 @@
 import React from "react";
 import aboutVid from "../images/aboutVid.mp4"
+import numllogo from "../images/numllogo.png"
+import googlelogo from "../images/googlelogo.jpg"
+
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -18,8 +22,35 @@ const About = () => {
         document.getElementById('education').classList.remove('d-none');
         document.getElementById('btnedu').classList.add('text-warning');
     }
+
+    const education = [
+        {
+            heading: "BS In Software Engineering - NUML, Islamabad",
+            desc: "2019-2023",
+            img: require('../images/numllogo.png')
+        },
+        {
+            heading: "Programming Senior category - Academics",
+            desc: "Winner of Senior programming competition held in National University of Modern Languages",
+            img: require('../images/numllogo.png')
+
+        },
+        {
+            heading: "Automating Real-World Tasks with Python",
+            desc: "Nov 2022",
+            img: require('../images/googlelogo.jpg')
+
+        },
+        {
+            heading: "Open house prize winner - Academics",
+            desc: "NUML final year project 'INTELLEGENT IDE' open house prize winner.",
+            img: require('../images/numllogo.png')
+
+        },
+
+    ]
     return (
-        <div  id="about" className="about-main">
+        <div id="about" className="about-main">
 
             <div className="about-container row" >
                 <div className="col-md-3">
@@ -49,14 +80,22 @@ const About = () => {
                     <p className="about-desc desc-p">Problem solving, design, development and maintenance of software</p>
                 </div>
                 <div id="education" className="d-none">
-                    <a href="https://www.numl.edu.pk/" className="about-buttons">BS In Software Engineering - NUML, Islamabad</a>
-                    <p className="about-desc desc-p">2019-2023</p>
-                    <a href="https://www.numl.edu.pk/" className="about-buttons">Programming Senior category - Academics</a>
-                    <p className="about-desc desc-p">Winner of Senior programming competition held in National University of
-                        Modern Languages
-                    </p>
-                </div>
 
+                    {
+                    education.map((data, key) =>( 
+                    <div key={key} className="edu row">
+                        <div className="col-md-1">
+                            <img className="edu-logo" width={60} src={data.img} alt="logo here" />
+                        </div>
+                        <div className="col-md-11 edu-col">
+                            <a href="https://www.numl.edu.pk/" className="about-buttons">{data.heading}</a>
+                            <p className="about-desc desc-p">{data.desc}</p>
+                        </div>
+                    </div>
+                    ))
+                    }
+
+                </div>
             </div>
         </div>
     )
