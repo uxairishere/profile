@@ -25,6 +25,9 @@ const ProjectDetail = (props) => {
 
             // split the URL final string o get an object with all params 
             params = docURL.split('/');
+            for(var i in params){
+                params[i] = isNaN(parseInt(params[i])) ? params[i] : parseInt(params[i]);
+            }
             console.log(params);
         }
     } else {
