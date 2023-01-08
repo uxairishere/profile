@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Profile from './components/Home/Profile';
 import ProjectDetail from './components/Home/ProjectDetail';
+import NotFound from './components/Home/NotFound';
 import { projects } from './components/states/project.state';
 import { PuffLoader } from 'react-spinners';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -22,19 +23,10 @@ const App = () => {
       <Router>
         <Routes>
           <Route path='/' element={
-
-            loading ?
-              <div className="loading-wrapper">
-                <PuffLoader
-                  size={80}
-                  color={"#FFD700"}
-                  loading={loading}
-                />
-              </div>
-              :
               <Profile />
           } />
           <Route path='/project/:id' element={<ProjectDetail projects={projects} />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
 
