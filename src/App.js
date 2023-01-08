@@ -4,7 +4,7 @@ import ProjectDetail from './components/Home/ProjectDetail';
 import NotFound from './components/Home/NotFound';
 import { projects } from './components/states/project.state';
 import { PuffLoader } from 'react-spinners';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
