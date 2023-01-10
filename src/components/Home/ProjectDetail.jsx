@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import bg from '../images/pbg.jpg'
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 const ProjectDetail = (props) => {
     const navigate = useNavigate();
     const goBack = () => {
@@ -17,7 +17,7 @@ const ProjectDetail = (props) => {
             </div>
             {
                 props.projects.map((val, index) => (
-                    val._id == id ?
+                    val._id == id  ?
                         <div className='row project-container' key={index}>
                             <div className='col-md-6 project-cover-container'>
                                 <img className='project-cover' src={val.img} alt="Loading img..." />

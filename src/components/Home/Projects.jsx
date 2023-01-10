@@ -25,7 +25,7 @@ function Projects() {
                             <div className='project-card-inner'>
                                 <p className='service-p'>{value.tech}</p>
                                 <h3 className='serviceh3'>{value.heading}</h3>
-                                <a href={'/profile/project/' + value._id} className='btn btn-outline-warning submit-button'>VIEW <i className='fa fa-github'></i></a>
+                                <a href={'/#/project/' + value._id} className='btn btn-outline-warning submit-button'>VIEW <i className='fa fa-github'></i></a>
                             </div>
                         </card>
                     </div>
