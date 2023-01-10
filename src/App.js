@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import Profile from './components/Home/Profile';
 import ProjectDetail from './components/Home/ProjectDetail';
 import NotFound from './components/Home/NotFound';
+import Loader from './components/Home/Loader';
 import { projects } from './components/states/project.state';
 import { PuffLoader } from 'react-spinners';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Routes, Route } from 'react-router-dom';
 
 
 
@@ -21,7 +22,7 @@ const App = () => {
   return (
     <div className={"App"} style={{ margin: "0" }}>
         <Routes>
-          <Route path='/' element={<Profile />} />
+          <Route path='/' element={loading ? <Loader/> :<Profile />} />
           <Route path='/project/:id' element={<ProjectDetail projects={projects} />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
