@@ -7,6 +7,7 @@ import Services from "./Services";
 import Projects from "./Projects";
 import ToolsTech from "./ToolsTech";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import Particle from "../elements/Particle";
 import Navi from "./Navi";
 
@@ -48,7 +49,7 @@ const Profile = (props) => {
                             <p className="title-p introp">Rawalpindi, Pakistan</p>
                             <a className="introIcon social-media ig btn" href="https://www.instagram.com/uxair_abbass/?hl=en" target="blank"><i className="fab fa-instagram"></i></a>
                             <a className="introIcon social-media li btn" href="https://www.linkedin.com/in/uzair-abbas-7bb474248/" target="blank"><i className="fab fa-linkedin-in"></i></a>
-                            <a className="introIcon social-media fb btn" href="https://www.facebook.com/uxairabbass" target="blank"><i className="fab fa-facebook"></i></a>
+                            <a className="introIcon social-media fb btn" href="mailto: uxair.abs@gmail.com" target="blank"><i className="fab fa-google"></i></a>
                             <a className="introIcon social-media gi btn" href="https://github.com/uxairishere" target="blank"><i className="fab fa-github"></i></a>
                         </div>
                         <div className="profile-image-main col-xs-12 col-sm-6 col-md-6 col-lg-5 ">
@@ -65,6 +66,7 @@ const Profile = (props) => {
             <Projects />
             <ToolsTech/>
             <Contact />
+            <Footer />
         </div>
 
     )

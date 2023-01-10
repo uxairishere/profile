@@ -11,6 +11,7 @@
   font-style: normal;
   font-display: swap;
 }
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 .circle{
   animation: rotateHue 2s alternate infinite;
@@ -141,6 +142,20 @@ p.title-p {
 .ig:hover {
   background-color: rgba(255, 4, 4, 0.479);
   border: none;
+}
+.fa-instagram:hover{
+  color: rgba(255, 8, 160, 0.479);
+}
+.fa-linkedin-in:hover{
+  color: #1cdce8;
+}
+.fa-google:hover{
+  background-image: linear-gradient(120deg, #1cdce8, #bb77ed, #f34a62);
+  background-size: 200%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: animated-gradient 5s ease-in-out infinite;
 }
 
 .gi:hover {
@@ -628,7 +643,35 @@ img:nth-child(2) {
   width: 95%;
 }
 
+/* FOOTER CSS  */
+.footer-container{
+  color: white;
+  background-color: #101010;
 
+}
+.footer-top{
+  padding: 60px 0;
+}
+
+.footer-top h1{
+  font-family: 'Dancing Script', cursive;
+}
+.footer-top i{
+  color: gold;
+}
+.footer-links-container{
+  padding: 1rem 0;
+}
+.footer-links{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  margin: 0 2rem;
+}
+
+.footer-bottom{
+  padding: 0 0 10px 0;
+}
 /* Minimum aspect ratio */
 @media (min-aspect-ratio: 8/5) {}
 
@@ -786,4 +829,15 @@ img:nth-child(2) {
   .mail-alert {
     width: 90%;
   }
+  /* Footer  */
+  .footer-links{
+  text-decoration: none;
+  display: block;
+  color: white;
+  margin: 0 1rem;
+}
+.footer-bottom{
+  width: 80%;
+  margin: 0 auto;
+}
 }
