@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.a35701bc.css",
-    "main.js": "/profile/static/js/main.878ca901.js",
+    "main.css": "/profile/static/css/main.fc6752c1.css",
+    "main.js": "/profile/static/js/main.7946dbbe.js",
     "static/js/787.f2a0fa2f.chunk.js": "/profile/static/js/787.f2a0fa2f.chunk.js",
     "static/media/rms1.png": "/profile/static/media/rms1.4fe3d7d8d0f72f7e8196.png",
     "static/media/aboutVid.mp4": "/profile/static/media/aboutVid.b8ed07a4b2c07107922f.mp4",
@@ -41,6 +41,7 @@
     "static/media/numllogo.png": "/profile/static/media/numllogo.d33a250762217691fec8.png",
     "static/media/profile.jpg": "/profile/static/media/profile.e743687dc9f998ba66a5.jpg",
     "static/media/reactNative.png": "/profile/static/media/reactNative.1a1b714778e43699a28f.png",
+    "static/media/projects.png": "/profile/static/media/projects.2285746e38a3c0e8ae88.png",
     "static/media/firebase.png": "/profile/static/media/firebase.22ade27d533c69e7204a.png",
     "static/media/mongodb.png": "/profile/static/media/mongodb.62f6b1e4375f36d6eb26.png",
     "static/media/androidlogo.png": "/profile/static/media/androidlogo.9623ffcd5fee91f95960.png",
@@ -48,12 +49,12 @@
     "static/media/logo.png": "/profile/static/media/logo.3698821edb28f76b1806.png",
     "static/media/googlelogo.jpg": "/profile/static/media/googlelogo.62321f4e131c1c62672a.jpg",
     "index.html": "/profile/index.html",
-    "main.a35701bc.css.map": "/profile/static/css/main.a35701bc.css.map",
-    "main.878ca901.js.map": "/profile/static/js/main.878ca901.js.map",
+    "main.fc6752c1.css.map": "/profile/static/css/main.fc6752c1.css.map",
+    "main.7946dbbe.js.map": "/profile/static/js/main.7946dbbe.js.map",
     "787.f2a0fa2f.chunk.js.map": "/profile/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a35701bc.css",
-    "static/js/main.878ca901.js"
+    "static/css/main.fc6752c1.css",
+    "static/js/main.7946dbbe.js"
   ]
 }
