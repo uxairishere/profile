@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import bg from '../images/pbg.jpg'
-import { useParams, useNavigate, useLocation } from 'react-router-dom';
+import Footer from './Footer'
+import { useParams, useNavigate } from 'react-router-dom';
 const ProjectDetail = (props) => {
     const navigate = useNavigate();
     const goBack = () => {
@@ -41,6 +42,7 @@ const ProjectDetail = (props) => {
                         : null
                 ))
             }
+            <Footer/>
         </div>
     )
 }

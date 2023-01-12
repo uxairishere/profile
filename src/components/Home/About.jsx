@@ -1,10 +1,5 @@
 import React from "react";
 import aboutVid from "../images/aboutVid.mp4"
-import numllogo from "../images/numllogo.png"
-import googlelogo from "../images/googlelogo.jpg"
-
-
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

@@ -84,7 +84,10 @@ export const projects = [
         tech: "Android Application",
         path_link: "#",
         img: require("../images/androidProject1.png"),
-        desc: 'Search movies using api calls to get desired movie details. Fully dynamic recycler view. (Android Studio | Java).'
+        desc: 'Search movies using api calls to get desired movie details. Fully dynamic recycler view. (Android Studio | Java).',
+        links: {
+            github: 'https://github.com/uxairishere'
+        },
     },
     {
         _id: 4,
@@ -92,7 +95,10 @@ export const projects = [
         tech: "React | Firebase | Tailwind",
         path_link: "#",
         img: require("../images/reactGallery1.png"),
-        desc: 'Lorem...'
+        desc: 'Lorem...',
+        links: {
+            github: 'https://github.com/uxairishere'
+        },
     },
     {
         _id: 5,
@@ -100,7 +106,10 @@ export const projects = [
         tech: "MERN Stack",
         path_link: "#",
         img: require("../images/codeanalizer.png"),
-        desc: 'Lorem...'
+        desc: 'Lorem...',
+        links: {
+            github: 'https://github.com/uxairishere'
+        },
 
     },
     {
@@ -109,7 +118,10 @@ export const projects = [
         tech: "Node | Express | Bootstrap",
         path_link: "#",
         img: require("../images/unidownloader.png"),
-        desc: 'Lorem...'
+        desc: 'Lorem...',
+        links: {
+            github: 'https://github.com/uxairishere'
+        },
 
     },
     {
@@ -118,6 +130,9 @@ export const projects = [
         tech: "Node | Express | MongoDB",
         path_link: "#",
         img: require("../images/smartcode.png"),
-        desc: 'Lorem...'
+        desc: 'Lorem...',
+        links: {
+            github: 'https://github.com/uxairishere'
+        },
     },
 ]

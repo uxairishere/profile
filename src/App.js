@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Profile from './components/Home/Profile';
 import ProjectDetail from './components/Home/ProjectDetail';
+import AllProjects from './components/Home/AllProjects';
 import NotFound from './components/Home/NotFound';
 import Loader from './components/Home/Loader';
 import { projects } from './components/states/project.state';
-import { PuffLoader } from 'react-spinners';
 import {Routes, Route } from 'react-router-dom';
 
 
@@ -24,6 +24,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={loading ? <Loader/> :<Profile />} />
           <Route path='/project/:id' element={<ProjectDetail projects={projects} />} />
+          <Route path='/projects' element={<AllProjects projects={projects} />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
     </div>

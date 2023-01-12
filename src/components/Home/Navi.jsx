@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/logo.png"
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navi = () => {
   function HandleScroll() {
@@ -24,20 +25,23 @@ const Navi = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-md-auto gap-2 text-center">
                 <li className="nav-item rounded">
-                  <a className="nav-link" aria-current="page" href="#home">
-                  <i className='fa fa-home' style={{fontSize: '1.3rem'}}></i></a>
+                  <Link className="nav-link" aria-current="page" to="#home">
+                  <i className='fa fa-home' style={{fontSize: '1.3rem'}}></i></Link>
                 </li>
                 <li className="nav-item rounded">
-                  <a className="nav-link" href="#about">About</a>
+                  <a className="nav-link" href="/profile/#/projects"><i style={{fontSize: '1.3rem'}} class="bi bi-view-list"></i></a>
                 </li>
                 <li className="nav-item rounded">
-                  <a className="nav-link" href="#services"><i className="bi bi-telephone-fill me-2"></i>Services</a>
+                  <Link className="nav-link" to="#about">About</Link>
                 </li>
                 <li className="nav-item rounded">
-                  <a className="nav-link" href="#projects"><i className="bi bi-telephone-fill me-2"></i>Portfolio</a>
+                  <Link className="nav-link" to="#services">Services</Link>
                 </li>
                 <li className="nav-item rounded">
-                  <a className="nav-link" href="#contact"><i className="bi bi-telephone-fill me-2"></i>Contact</a>
+                  <Link className="nav-link" to="#projects">Portfolio</Link>
+                </li>
+                <li className="nav-item rounded">
+                  <Link className="nav-link" to="#contact">Contact</Link>
                 </li>
                 <ul className='navbar-nav'>
                 

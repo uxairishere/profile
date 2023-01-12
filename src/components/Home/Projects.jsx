@@ -33,7 +33,9 @@ function Projects() {
                     }
 
                 </div>
-                <button onClick={() => {loadHandler()}} className='btn btn-outline-info ' style={{width: "15rem", margin: '0 auto'}}>View more...</button>
+                <button onClick={() => {loadHandler()}} className='btn btn-outline-info' style={{width: "15rem", margin: '0 auto'}}>View more...</button><br/>  
+                <a className="btn btn-outline-success" href="/profile/#/projects" style={{width: "15rem", margin: '1rem auto'}}>View List <i class="bi bi-view-list"></i></a>
+
 
             </div>
 

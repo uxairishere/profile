@@ -291,6 +291,17 @@ box-shadow:  2px 2px 5px #bebebe,
              -2px -2px 5px #ffffff;
 }
 
+/* All PROJECTS  */
+.all-projects-h1{
+  text-align: center;
+  padding: 4rem 0 0 0;
+}
+.all-project-bg-img{
+  width: 100%;
+  z-index: -1;
+  position:fixed;
+  opacity: 0.2;
+}
 /* TOOLS AND TECH  */
 
 .tools-main {
@@ -829,6 +840,26 @@ img:nth-child(2) {
   .mail-alert {
     width: 90%;
   }
+  /* All PROJECTS  */
+  .all-projects-container{
+    padding: 0 0 5rem 0;
+  }
+.all-projects-h1{
+  text-align: center;
+  padding: 4rem 0 0 0;
+}
+.all-projects-wrapper{
+  text-align: center;
+  padding-top: 2rem !important;
+ }
+ .all-projects-desc{
+  text-align: center;
+  padding-top: 1rem !important;
+ }
+.all-projects-btn{
+  margin: 1rem 0;
+  width: 20rem;
+}
   /* Footer  */
   .footer-links{
   text-decoration: none;
