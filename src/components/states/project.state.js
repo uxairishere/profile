@@ -79,6 +79,20 @@ export const projects = [
         ]
     },
     {
+        _id: 23,
+        heading: "Redux Todo List",
+        tech: "React | Redux | SCSS",
+        path_link: "#",
+        img: require("../images/projects/todor1.png"),
+        desc: 'CRUD todo application where user can add and delete tasks. User friendly interface using React, Redux, SCSS, Bootstrap 5.2.',
+        links: {
+            github: 'https://github.com/uxairishere'
+        },
+        album: [
+            {img: require("../images/projects/todor1.png")},
+        ]
+    },
+    {
         _id: 3,
         heading: "Movie Search Engine",
         tech: "Android Application",

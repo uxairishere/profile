@@ -7,8 +7,6 @@ import Loader from './components/Home/Loader';
 import { projects } from './components/states/project.state';
 import {Routes, Route } from 'react-router-dom';
 
-
-
 const App = () => {
 
   const [loading, setLoading] = useState(false)
