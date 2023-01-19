@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.fc6752c1.css",
-    "main.js": "/profile/static/js/main.7946dbbe.js",
+    "main.js": "/profile/static/js/main.443a7dc9.js",
     "static/js/787.f2a0fa2f.chunk.js": "/profile/static/js/787.f2a0fa2f.chunk.js",
     "static/media/rms1.png": "/profile/static/media/rms1.4fe3d7d8d0f72f7e8196.png",
     "static/media/aboutVid.mp4": "/profile/static/media/aboutVid.b8ed07a4b2c07107922f.mp4",
@@ -35,6 +35,7 @@
     "static/media/ide3.png": "/profile/static/media/ide3.f9896ec24de523fd7852.png",
     "static/media/unidownloader.png": "/profile/static/media/unidownloader.2f41ea9af2eca4f136b0.png",
     "static/media/smartcode.png": "/profile/static/media/smartcode.2846cfed7190243a0d74.png",
+    "static/media/todor1.png": "/profile/static/media/todor1.e9a18e15d603c012826e.png",
     "static/media/codeanalizer.png": "/profile/static/media/codeanalizer.9a4af099b0b4deeadb1a.png",
     "static/media/node.png": "/profile/static/media/node.807cc08f74ef1fb16954.png",
     "static/media/ide8.png": "/profile/static/media/ide8.345ed346fb4059185358.png",
@@ -50,11 +51,11 @@
     "static/media/googlelogo.jpg": "/profile/static/media/googlelogo.62321f4e131c1c62672a.jpg",
     "index.html": "/profile/index.html",
     "main.fc6752c1.css.map": "/profile/static/css/main.fc6752c1.css.map",
-    "main.7946dbbe.js.map": "/profile/static/js/main.7946dbbe.js.map",
+    "main.443a7dc9.js.map": "/profile/static/js/main.443a7dc9.js.map",
     "787.f2a0fa2f.chunk.js.map": "/profile/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc6752c1.css",
-    "static/js/main.7946dbbe.js"
+    "static/js/main.443a7dc9.js"
   ]
 }
