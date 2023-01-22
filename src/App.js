@@ -1,3 +1,6 @@
+import './fonts/Varino.ttf'
+import './fonts/Centauri.otf'
+import './fonts/Fenomeno.ttf'
 import React, { useState, useEffect } from 'react';
 import Profile from './components/Home/Profile';
 import ProjectDetail from './components/Home/ProjectDetail';

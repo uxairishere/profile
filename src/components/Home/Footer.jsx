@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className='footer-container text-center'>
             <div className='footer-top'>
-                <h1>Uzair Abbas</h1>
+                <h1 className="animate-gradient-text">Uzair Abbas</h1>
                 <div className='footer-links-container'>
                 <a href='#home' className='footer-links'>HOME</a>
                 <a href='#about' className='footer-links'>ABOUT</a>

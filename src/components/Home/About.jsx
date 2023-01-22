@@ -51,7 +51,7 @@ const About = () => {
                 <div className="col-md-3">
                     <video className="aboutVid" style={{ borderRadius: '50%' }} width="200" src={aboutVid} autoPlay muted loop />
                 </div>
-                <div data-aos="fade-up" className="col-md-9">
+                <div data-aos="fade-up" className="col-md-9 about-desc">
                     <h1 >About me</h1>
                     <p className="desc-p">I'm quietly confident, self-motivated and hardworking
                         seeking for an opportunity to work

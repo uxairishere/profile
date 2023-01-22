@@ -25,7 +25,7 @@ const Profile = (props) => {
                     <div className={"title row"}>
                         <div className="intro-desc col-xs-12 col-sm-6 col-md-6 col-lg-7" style={{ zIndex: '2' }}>
                             <span ><h5 className="introh5" style={{ letterSpacing: "0.3rem", lineHeight: '0' }}>WELCOME TO MY WORLD</h5></span>
-                            <h1 className="introh1">Hi, I'm Uzair Abbas</h1>
+                            <h1 className="introh1">UZAIR ABBAS</h1>
                             {/* <h2 className="introh2" style={{ marginTop: "1rem", lineHeight: "1.5rem", color: 'gold'}}>Software Engineer</h2> */}
                             <TypeAnimation
 
@@ -42,7 +42,8 @@ const Profile = (props) => {
                                 wrapper="h2"
                                 cursor={true}
                                 repeat={Infinity}
-                                style={{ marginTop: "1rem", lineHeight: "1.5rem", color: 'gold' }}
+                                style={{ marginTop: "1rem", lineHeight: "1.5rem"}}
+                                className="typing"
                             />
                             <hr className="introhr hr-title breaker" />
                             <h3 className="introh3" style={{ lineHeight: "1.5rem" }}>I build value through code</h3>

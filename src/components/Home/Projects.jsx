@@ -15,7 +15,7 @@ function Projects() {
     return (
         <div id='projects' className='contact-main'>
             <div className='project-container'>
-                <h1>My Latest Projects</h1>
+                <h1 className='text-centauri'>Latest Projects</h1>
                 <p>Here are a few projects I have worked on recently</p>
                 <div className='row'>
                     {

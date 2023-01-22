@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   transition: all 0.1s;
@@ -12,7 +13,24 @@
   font-display: swap;
 }
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+/* Arino font  */
+@font-face {
+  font-family: "Varino";   /*Can be any text*/
+  src: local("Varino"), 
+    url("./fonts/Varino.ttf") format("truetype");
+}
+/* Centauri font  */
+@font-face {
+  font-family: "Centauri";   /*Can be any text*/
+  src: local("Centauri"), 
+    url("./fonts/Centauri.otf") format("truetype");
+}
+/* Fenomeno font  */
+@font-face {
+  font-family: "Fenomeno";   /*Can be any text*/
+  src: local("Fenomeno"), 
+    url("./fonts/Fenomeno.ttf") format("truetype");
+}
 .circle{
   animation: rotateHue 2s alternate infinite;
 }
@@ -21,6 +39,7 @@
     filter: hue-rotate(1turn);
   }
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -39,9 +58,13 @@ body {
 
 .introh1 {
   font-weight: 900;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Varino';
   font-size: 58px;
+  letter-spacing: 8px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
 }
+
 
 hr {
   border: 0;
@@ -81,6 +104,10 @@ hr {
     -10px 0px 30px rgba(106, 106, 106, 0.968),
     10px 0px 30px rgba(46, 46, 46, 0.972),
     0px 10px 30px #202020;
+}
+
+.typing{
+  
 }
 
 /* LOADING  */
@@ -186,6 +213,8 @@ p.title-p {
   width: 70%;
   margin: 0 auto;
 }
+
+
 
 .desc-p {
   font-weight: 300;
@@ -400,16 +429,38 @@ label {
       hsl(198deg 42% 14%) 82%,
       hsl(198deg 43% 12%) 91%,
       hsl(198deg 44% 11%) 100%);
-
+}
+.mail-alert-error {
+  width: 50%;
+  margin: 5rem auto;
+  background-color: rgb(16, 16, 16,0.8);
+  color: gold;
+  border-left: 5px solid red;
 }
 
+.close{
+  display: inline-block;
+  float: right;
+  color: white;
+}
+.close:hover{
+  color: gold;
+  cursor: grab;
+}
+
+
+
 /* NAVBAR START  */
-
-
-
-
 /* navbar */
 
+.nav-link{
+  font-family: "Fenomeno";
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.nav-link:hover{
+  color: gold;
+}
 .logo {
   margin-left: 2rem;
   font-family: 'Bad Script', cursive;
@@ -665,7 +716,8 @@ img:nth-child(2) {
 }
 
 .footer-top h1{
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: "Centauri";
 }
 .footer-top i{
   color: gold;
@@ -838,6 +890,9 @@ img:nth-child(2) {
   }
   /* alerts  */
   .mail-alert {
+    width: 90%;
+  }
+  .mail-alert-error {
     width: 90%;
   }
   /* All PROJECTS  */
