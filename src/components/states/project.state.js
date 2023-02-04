@@ -67,7 +67,7 @@ export const projects = [
         heading: "Online Shopping Store",
         tech: "MERN | Python | AI",
         path_link: "#",
-        img: require("../images/onlineStoree.png"),
+        img: require("../images/oshop1.png"),
         desc: 'Authenticated and authorized MERN stack integrated development environment for python with ability to detect errors and suggest easy solutions and also providing web links to solve it using NLP model and provide automated report of the user progress. With powerful chatbot for user queries about data structures and algorithms.',
         links: {
             github: 'https://github.com/uxairishere'
@@ -90,6 +90,21 @@ export const projects = [
         },
         album: [
             {img: require("../images/projects/todor1.png")},
+        ]
+    },
+    {
+        _id: 323,
+        heading: "Ecommerce Admin Dashboard",
+        tech: "REACT | NODE | EXPRESS | MONGODB",
+        path_link: "#",
+        img: require("../images/projects/dashImg1.png"),
+        desc: 'Modern dashboard for tracking and managing orders and sales. Used React Js and Bootstrap v5.2 for interface, integrated with Node Js and Express Js back-end with Mongo database for fetching and rendering data.',
+        links: {
+            github: 'https://github.com/uxairishere'
+        },
+        album: [
+            {img: require("../images/projects/dashImg1.png")},
+            {img: require("../images/projects/dashImg2.png")},
         ]
     },
     {

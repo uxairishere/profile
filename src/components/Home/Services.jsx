@@ -18,8 +18,8 @@ const Services = () => {
                             <p className='about-desc about-p service-p'>I love to bring your custom web ideas into reality, it keeps me motivated to bring those ideas to life.</p>
                             <h3 className='serviceh3'>Thing I love doing</h3>
                             <p className='about-desc about-p service-p'>HTML, CSS, JavaScript, Python</p>
-                            <h3 className='serviceh3'>Tools I use</h3>
-                            <p className='about-desc about-p service-p'>VSCode, React, Node, Express, Github</p>
+                            <h3 className='serviceh3'><i class="bi bi-tools text-success"></i> Tools & Tech</h3>
+                            <p className='about-desc about-p service-p'>VSCode | React | Node | Express | Python | MongoDB | Mysql | CSS3</p>
                             </div>
                         
                         </card>
@@ -33,8 +33,8 @@ const Services = () => {
                             <p className='about-desc about-p service-p'>I Build user-friendly full-stack ecommerce & dynamic websites with quality code and architecture.</p>
                             <h3 className='serviceh3'>Build Approach</h3>
                             <p className='about-desc about-p service-p'>MERN Stack</p>
-                            <h3 className='serviceh3'>Tools I use</h3>
-                            <p className='about-desc about-p service-p'>VSCode, React, Node, Express, MongoDB</p>
+                            <h3 className='serviceh3'><i class="bi bi-tools text-success"></i> Tools & Tech</h3>
+                            <p className='about-desc about-p service-p'>VSCode | React | Node | Express | MongoDB | Redux | Bootstrap</p>
                             </div>
                         
                         </card>
@@ -46,9 +46,9 @@ const Services = () => {
                             <h3 className='serviceh3'>Android Application</h3>
                             <p className='about-desc about-p service-p'>I like building quality android application with friendly user-interface and simple desgin</p>
                             <h3 className='serviceh3'>Thing I love doing</h3>
-                            <p className='about-desc about-p service-p'>Java, Kotlin, API Integration</p>
-                            <h3 className='serviceh3'>Tools I use</h3>
-                            <p className='about-desc about-p service-p'>VSCode, Android Studio, React Native</p>
+                            <p className='about-desc about-p service-p'>Java, JavaScript, API Integration</p>
+                            <h3 className='serviceh3'><i class="bi bi-tools text-success"></i> Tools & Tech</h3>
+                            <p className='about-desc about-p service-p'>Android Studio | React Native | Java | JavaScript</p>
                             </div>
                         
                         </card>

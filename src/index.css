@@ -454,9 +454,10 @@ label {
 /* navbar */
 
 .nav-link{
-  font-family: "Fenomeno";
-  font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 5px 0 0 0;
+  margin: 10px 0 0 0 ;
 }
 .nav-link:hover{
   color: gold;
