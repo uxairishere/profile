@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.7434825e.css",
-    "main.js": "/profile/static/js/main.323e9fa5.js",
+    "main.css": "/profile/static/css/main.bfb12d3b.css",
+    "main.js": "/profile/static/js/main.f2360a04.js",
     "static/js/787.f2a0fa2f.chunk.js": "/profile/static/js/787.f2a0fa2f.chunk.js",
     "static/media/rms1.png": "/profile/static/media/rms1.4fe3d7d8d0f72f7e8196.png",
     "static/media/aboutVid.mp4": "/profile/static/media/aboutVid.b8ed07a4b2c07107922f.mp4",
@@ -53,13 +53,16 @@
     "static/media/logo.png": "/profile/static/media/logo.3698821edb28f76b1806.png",
     "static/media/googlelogo.jpg": "/profile/static/media/googlelogo.62321f4e131c1c62672a.jpg",
     "static/media/Centauri.otf": "/profile/static/media/Centauri.fc5d457c92973df93cde.otf",
+    "static/media/bloblue.svg": "/profile/static/media/bloblue.18b1bed126897f4db576000f73e9ab58.svg",
+    "static/media/blobpurple.svg": "/profile/static/media/blobpurple.692ddabab355fba95a0ca6f595184156.svg",
+    "static/media/blobyellow.svg": "/profile/static/media/blobyellow.d8858e5528caa34bce03075056326546.svg",
     "index.html": "/profile/index.html",
-    "main.7434825e.css.map": "/profile/static/css/main.7434825e.css.map",
-    "main.323e9fa5.js.map": "/profile/static/js/main.323e9fa5.js.map",
+    "main.bfb12d3b.css.map": "/profile/static/css/main.bfb12d3b.css.map",
+    "main.f2360a04.js.map": "/profile/static/js/main.f2360a04.js.map",
     "787.f2a0fa2f.chunk.js.map": "/profile/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7434825e.css",
-    "static/js/main.323e9fa5.js"
+    "static/css/main.bfb12d3b.css",
+    "static/js/main.f2360a04.js"
   ]
 }
