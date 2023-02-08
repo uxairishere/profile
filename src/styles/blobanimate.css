@@ -1,0 +1,17 @@
+.blog-img {
+  height: 300px;
+  width: 300px;
+}
+
+.blob-container {
+  position: absolute;
+  right: 0;
+}
+
+
+@media (max-width: 600px) {
+  .blog-img {
+    height: 150px;
+    width: 150px;
+  }
+}

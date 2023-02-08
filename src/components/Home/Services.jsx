@@ -1,6 +1,8 @@
 import React from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import bloganimation from '../images/bloblue.svg'
+import '../../styles/blobanimate.css'
 
 const Services = () => {
     AOS.init();
@@ -54,6 +56,9 @@ const Services = () => {
                         </card>
                     </div>
                 </div>
+            </div>
+            <div className="blob-container" style={{left: 0}} >
+                <img className="blog-img" src={bloganimation}/>
             </div>
         </div>
     )

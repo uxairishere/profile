@@ -2,6 +2,8 @@ import React from "react";
 import aboutVid from "../images/aboutVid.mp4"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import bloganimation from '../images/blobpurple.svg'
+import '../../styles/blobanimate.css'
 
 const About = () => {
     AOS.init();
@@ -77,20 +79,25 @@ const About = () => {
                 <div id="education" className="d-none">
 
                     {
-                    education.map((data, key) =>( 
-                    <div key={key} className="edu row">
-                        <div className="col-md-1">
-                            <img className="edu-logo" width={60} src={data.img} alt="logo here" />
-                        </div>
-                        <div className="col-md-11 edu-col">
-                            <a href="https://www.numl.edu.pk/" className="about-buttons">{data.heading}</a>
-                            <p className="about-desc desc-p">{data.desc}</p>
-                        </div>
-                    </div>
-                    ))
+                        education.map((data, key) => (
+                            <div key={key} className="edu row">
+                                <div className="col-md-1">
+                                    <img className="edu-logo" width={60} src={data.img} alt="logo here" />
+                                </div>
+                                <div className="col-md-11 edu-col">
+                                    <a href="https://www.numl.edu.pk/" className="about-buttons">{data.heading}</a>
+                                    <p className="about-desc desc-p">{data.desc}</p>
+                                </div>
+                            </div>
+                        ))
                     }
 
                 </div>
+                {/* BLOG  */}
+
+            </div>
+            <div className="blob-container ">
+                <img className="blog-img" src={bloganimation} />
             </div>
         </div>
     )

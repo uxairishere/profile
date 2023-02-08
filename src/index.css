@@ -39,7 +39,23 @@
     filter: hue-rotate(1turn);
   }
 }
-
+.navbar-toggler{
+  border: none;
+}
+.burger{
+  width: 2.5rem;
+  height: 4px;
+  background-color: white;
+  margin: 0.5rem 0;
+}
+.burger:hover{
+   background-color: gold;
+}
+.blog-nav{
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -736,6 +752,9 @@ img:nth-child(2) {
 .footer-bottom{
   padding: 0 0 10px 0;
 }
+/* BLOG  */
+
+
 /* Minimum aspect ratio */
 @media (min-aspect-ratio: 8/5) {}
 
@@ -882,7 +901,11 @@ img:nth-child(2) {
 
   /* /navbar  */
   .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .navbar-collapse{
+    padding: 50% 0;
   }
 
   .nav-link:hover {
