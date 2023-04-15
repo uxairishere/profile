@@ -11,13 +11,26 @@ const About = () => {
         document.getElementById('main-skills').classList.remove('d-none');
         document.getElementById('btnskill').classList.add('text-warning');
         document.getElementById('btnedu').classList.remove('text-warning');
+        document.getElementById('btnexp').classList.remove('text-warning');
         document.getElementById('education').classList.add('d-none');
+        document.getElementById('experience').classList.add('d-none');
+
     }
     function HandleEducation() {
         document.getElementById('main-skills').classList.add('d-none');
         document.getElementById('btnskill').classList.remove('text-warning');
+        document.getElementById('btnexp').classList.remove('text-warning');
         document.getElementById('education').classList.remove('d-none');
         document.getElementById('btnedu').classList.add('text-warning');
+        document.getElementById('experience').classList.add('d-none');
+    }
+    function HandleExperience() {
+        document.getElementById('main-skills').classList.add('d-none');
+        document.getElementById('education').classList.add('d-none');
+        document.getElementById('btnskill').classList.remove('text-warning');
+        document.getElementById('btnedu').classList.remove('text-warning');
+        document.getElementById('experience').classList.remove('d-none');
+        document.getElementById('btnexp').classList.add('text-warning');
     }
 
     const education = [
@@ -46,6 +59,15 @@ const About = () => {
         },
 
     ]
+
+    const exprience = [
+        {
+            heading: "SAMSOFT Technologies",
+            desc: "MERN stack developer",
+            status: "Current",
+            img: require('../images/samsoft.jpg')
+        },
+    ]
     return (
         <div id="about" className="about-main">
 
@@ -65,7 +87,9 @@ const About = () => {
                 {/* buttons  */}
                 <div className="aboutToggleDiv" style={{ display: 'inline-block', marginTop: '2rem' }}>
                     <a id="btnskill" onClick={HandleSkills} className="about-buttons text-warning" style={{ marginRight: '2rem' }}>Main skills</a>
-                    <a id="btnedu" onClick={HandleEducation} className="about-buttons">Education & Certification</a>
+                    <a id="btnedu" onClick={HandleEducation} className="about-buttons" style={{ marginRight: '2rem' }}>Education & Certification</a>
+                    <a id="btnexp" onClick={HandleExperience} className="about-buttons">Experience</a>
+
                     <hr style={{ backgroundColor: 'gold' }} />
                 </div>
                 <div id="main-skills">
@@ -87,6 +111,26 @@ const About = () => {
                                 <div className="col-md-11 edu-col">
                                     <a href="https://www.numl.edu.pk/" className="about-buttons">{data.heading}</a>
                                     <p className="about-desc desc-p">{data.desc}</p>
+                                </div>
+                            </div>
+                        ))
+                    }
+
+                </div>
+                <div id="experience" className="d-none">
+                    {
+                        exprience.map((data, key) => (
+                            <div key={key} className="edu row">
+                                <div className="col-md-1">
+                                    <img className="edu-logo" width={60} src={data.img} alt="logo here" />
+                                </div>
+                                <div className="col-md-11 edu-col">
+                                    <a href="https://www.numl.edu.pk/" className="about-buttons">{data.heading}</a>
+                                    <p className="about-desc desc-p">{data.desc}
+                                    {data.status === "Current" &&
+                                    <span style={{color: 'green', fontSize:'16px', fontWeight: '500'}}> ({data.status})</span>
+                                    }
+                                    </p>
                                 </div>
                             </div>
                         ))
